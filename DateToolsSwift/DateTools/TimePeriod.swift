@@ -24,12 +24,12 @@ public protocol TimePeriodProtocol {
     /**
      *  The start date for a TimePeriod representing the starting boundary of the time period
      */
-    var beginning: Date? {get set}
+    var beginning: Date? { get set }
     
     /**
      *  The end date for a TimePeriod representing the ending boundary of the time period
      */
-    var end: Date? {get set}
+    var end: Date? { get set }
 }
 
 public extension TimePeriodProtocol {
